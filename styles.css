@@ -1,0 +1,35 @@
+/* Custom CSS */
+
+/* Hero Section */
+.hero {
+    background: url('https://www.hepper.com/wp-content/uploads/2022/05/Cat-licking-a-persons-fingers_gglim79_Pixabay.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Adopt Section */
+#adopt .card {
+    border: none;
+}
+
+/* Pet Care Section */
+#pet-care .card {
+    border: none;
+}
+
+/* Contact Section */
+#contact .form-control {
+    border-radius: 0;
+}
+
+/* Footer */
+footer {
+    background-color: brown;
+}

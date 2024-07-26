@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption and Care</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Pet Adoption & Care</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#adopt">Adopt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pet-care">Pet Care</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero bg-info text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Find Your Perfect Companion</h1>
+            <p class="lead">Helping pets find loving homes</p>
+            <a href="#adopt" class="btn btn-light btn-lg">Adopt Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">We are dedicated to finding loving homes for pets. Our mission is to match you with the perfect companion.</p>
+        </div>
+    </section>
+
+    <!-- Adopt Section -->
+    <section id="adopt" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Available Pets</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="cat.jpg" class="card-img-top" alt="Cat">
+                        <div class="card-body">
+                            <h5 class="card-title">Whiskers</h5>
+                            <p class="card-text">Whiskers is a playful and loving cat looking for a forever home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="cat2.jpg" class="card-img-top" alt="Cat">
+                        <div class="card-body">
+                            <h5 class="card-title">Luna</h5>
+                            <p class="card-text">Luna is a cute kitten with a passionate, fierce personality waiting to amaze you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="dog1.jpg" class="card-img-top" alt="Dog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Buddy</h5>
+                            <p class="card-text">Buddy is a friendly and energetic dog who loves to play fetch.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="dog2.jpg" class="card-img-top" alt="Dog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Max</h5>
+                            <p class="card-text">Max is a loyal and gentle dog looking for a caring family.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pet Care Section -->
+    <section id="pet-care" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Pet Care Tips</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Train Your Dog</h5>
+                            <p class="card-text">Training your dog is essential for a happy and healthy relationship.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feeding Your Cat</h5>
+                            <p class="card-text">Proper nutrition is crucial for your cat's health and wellbeing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            <div class="map mt-4">
+                <p class="text-center">Find us at our location</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>Follow us on social media</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" class="text-white mr-3">Facebook</a>
+            <a href="https://twitter.com" target="_blank" class="text-white mr-3">Twitter</a>
+            <a href="https://instagram.com" target="_blank" class="text-white">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
